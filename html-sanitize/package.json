@@ -1,0 +1,16 @@
+{
+  "name": "html-sanitize",
+  "private": true,
+  "scripts": {
+    "build:html": "parcel build index.html --no-cache --out-dir=build",
+    "build:js": "parcel build index.js --no-cache --out-dir=build",
+    "build:js:dev": "parcel build index.js --no-cache --no-minify --out-dir=build"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "rehype": "^7.0.0",
+    "rehype-sanitize": "^2.0.2",
+    "parcel": "^1.12.3"
+  }
+}
